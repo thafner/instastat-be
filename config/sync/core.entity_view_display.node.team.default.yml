@@ -1,0 +1,28 @@
+uuid: 18bbdd88-1e2b-46ce-8c4c-8f677a6bc7e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.team.body
+    - node.type.team
+  module:
+    - text
+    - user
+id: node.team.default
+targetEntityType: node
+bundle: team
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

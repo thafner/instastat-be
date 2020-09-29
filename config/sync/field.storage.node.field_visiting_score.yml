@@ -1,0 +1,21 @@
+uuid: fba305c0-50da-4b26-ba9b-093633a52f5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_visiting_score
+field_name: field_visiting_score
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
