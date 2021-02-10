@@ -1,4 +1,4 @@
-uuid: dfc3083e-cdca-449f-94c2-1f8a7f5d5fff
+uuid: d76a2afa-23f7-4174-9cc2-82b8b4b4408b
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - test@test.com
+  - t.hafner@claritypartners.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

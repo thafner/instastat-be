@@ -1,18 +1,18 @@
-uuid: 09c66674-4eb5-4813-a573-590c13819dbb
+uuid: 9b2fe9a3-e626-4914-b555-09c5ebbd2621
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_visiting_team
-    - node.type.game
+    - field.storage.node.field_team_players
+    - node.type.player
     - node.type.team
-id: node.game.field_visiting_team
-field_name: field_visiting_team
+id: node.team.field_team_players
+field_name: field_team_players
 entity_type: node
-bundle: game
-label: 'Visiting Team'
+bundle: team
+label: Players
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
@@ -20,9 +20,10 @@ settings:
   handler: 'default:node'
   handler_settings:
     target_bundles:
-      team: team
+      player: player
     sort:
       field: _none
+      direction: ASC
     auto_create: false
     auto_create_bundle: ''
 field_type: entity_reference

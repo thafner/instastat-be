@@ -1,15 +1,15 @@
-uuid: 74ad2398-9829-4c92-be44-a82cfb9a52bf
+uuid: 700ca643-9cce-49c8-b531-63c63835ec46
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_last_name
+    - field.storage.node.field_player_first_name
     - node.type.player
-id: node.player.field_last_name
-field_name: field_last_name
+id: node.player.field_player_first_name
+field_name: field_player_first_name
 entity_type: node
 bundle: player
-label: 'Last Name'
+label: 'First Name'
 description: ''
 required: true
 translatable: false

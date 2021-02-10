@@ -1,11 +1,11 @@
-uuid: 45b9c132-ab19-4408-bf8f-6f9a8a0f6730
+uuid: 34ced896-6eb6-4f1d-a909-62e2ea919cbd
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_home_score
-field_name: field_home_score
+id: node.field_player_last_name
+field_name: field_player_last_name
 entity_type: node
 type: string
 settings:

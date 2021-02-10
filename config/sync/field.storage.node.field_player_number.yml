@@ -1,17 +1,16 @@
-uuid: fba305c0-50da-4b26-ba9b-093633a52f5a
+uuid: b5ee05b1-08b5-4c76-93b4-82df543c72f4
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_visiting_score
-field_name: field_visiting_score
+id: node.field_player_number
+field_name: field_player_number
 entity_type: node
-type: string
+type: integer
 settings:
-  max_length: 255
-  is_ascii: false
-  case_sensitive: false
+  unsigned: false
+  size: normal
 module: core
 locked: false
 cardinality: 1

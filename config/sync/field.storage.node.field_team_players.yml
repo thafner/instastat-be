@@ -1,17 +1,15 @@
-uuid: 27bf10d2-81cf-48f7-ac34-c1a81d72d6fa
+uuid: b3d175d2-c32e-41f8-a59e-c2dbb5ec53c0
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_last_name
-field_name: field_last_name
+id: node.field_team_players
+field_name: field_team_players
 entity_type: node
-type: string
+type: entity_reference
 settings:
-  max_length: 255
-  is_ascii: false
-  case_sensitive: false
+  target_type: node
 module: core
 locked: false
 cardinality: 1

@@ -1,0 +1,23 @@
+uuid: f8e6ccd3-77ab-4b86-812d-265a267e4182
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_player_number
+    - node.type.player
+id: node.player.field_player_number
+field_name: field_player_number
+entity_type: node
+bundle: player
+label: 'Player Number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: 99
+  prefix: ''
+  suffix: ''
+field_type: integer

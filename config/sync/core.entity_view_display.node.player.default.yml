@@ -1,29 +1,29 @@
-uuid: cb07362e-b1d2-4dfc-a708-c4d0804dfd50
+uuid: 26668ce9-eab6-42d4-8ce3-fcaa1df0ed54
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.player.field_first_name
-    - field.field.node.player.field_last_name
-    - field.field.node.player.field_number
-    - field.field.node.player.field_team
+    - field.field.node.player.body
+    - field.field.node.player.field_player_first_name
+    - field.field.node.player.field_player_last_name
+    - field.field.node.player.field_player_number
     - node.type.player
   module:
+    - text
     - user
 id: node.player.default
 targetEntityType: node
 bundle: player
 mode: default
 content:
-  field_first_name:
+  body:
+    label: hidden
+    type: text_default
     weight: 101
-    label: above
-    settings:
-      link_to_entity: false
+    settings: {  }
     third_party_settings: {  }
-    type: string
     region: content
-  field_last_name:
+  field_player_first_name:
     weight: 102
     label: above
     settings:
@@ -31,7 +31,7 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-  field_number:
+  field_player_last_name:
     weight: 103
     label: above
     settings:
@@ -39,13 +39,14 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-  field_team:
+  field_player_number:
     weight: 104
     label: above
     settings:
-      link: true
+      thousand_separator: ''
+      prefix_suffix: true
     third_party_settings: {  }
-    type: entity_reference_label
+    type: number_integer
     region: content
   links:
     weight: 100

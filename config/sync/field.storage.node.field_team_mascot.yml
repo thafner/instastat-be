@@ -1,11 +1,11 @@
-uuid: 3585330f-0d77-40af-a247-4bd429ac5db5
+uuid: 696baf20-460d-4f35-a98f-4c606be06d5b
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_first_name
-field_name: field_first_name
+id: node.field_team_mascot
+field_name: field_team_mascot
 entity_type: node
 type: string
 settings:

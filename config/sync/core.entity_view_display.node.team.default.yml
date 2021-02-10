@@ -1,9 +1,12 @@
-uuid: 18bbdd88-1e2b-46ce-8c4c-8f677a6bc7e2
+uuid: e4893df6-7f1f-41c7-a740-3b1851a28768
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.team.body
+    - field.field.node.team.field_team_logo
+    - field.field.node.team.field_team_mascot
+    - field.field.node.team.field_team_players
     - node.type.team
   module:
     - text
@@ -19,6 +22,31 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_team_logo:
+    type: entity_reference_entity_view
+    weight: 104
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_team_mascot:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_team_players:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
     region: content
   links:
     weight: 100

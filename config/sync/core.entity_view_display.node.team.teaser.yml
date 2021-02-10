@@ -1,10 +1,13 @@
-uuid: d44c9c41-4364-4044-8882-314a230fb510
+uuid: f02811ab-fe89-4734-9099-c369d191b329
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.team.body
+    - field.field.node.team.field_team_logo
+    - field.field.node.team.field_team_mascot
+    - field.field.node.team.field_team_players
     - node.type.team
   module:
     - text
@@ -27,4 +30,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_team_logo: true
+  field_team_mascot: true
+  field_team_players: true

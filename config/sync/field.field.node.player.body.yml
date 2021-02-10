@@ -1,16 +1,16 @@
-uuid: 22a8d202-effd-4cb3-9f88-f2b207ae8c52
+uuid: 9f5d451a-15c3-4d9e-adf0-5d10d327b585
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.game
+    - node.type.player
   module:
     - text
-id: node.game.body
+id: node.player.body
 field_name: body
 entity_type: node
-bundle: game
+bundle: player
 label: Body
 description: ''
 required: false

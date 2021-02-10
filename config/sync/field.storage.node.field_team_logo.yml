@@ -1,15 +1,16 @@
-uuid: f3a06aab-80bb-416e-b773-c93034e52054
+uuid: 70278311-0595-407f-8d2d-888633a1a071
 langcode: en
 status: true
 dependencies:
   module:
+    - media
     - node
-id: node.field_home_team
-field_name: field_home_team
+id: node.field_team_logo
+field_name: field_team_logo
 entity_type: node
 type: entity_reference
 settings:
-  target_type: node
+  target_type: media
 module: core
 locked: false
 cardinality: 1

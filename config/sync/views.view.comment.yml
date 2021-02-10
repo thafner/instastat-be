@@ -1,4 +1,4 @@
-uuid: 2d3e1c92-0183-4c47-990b-bbce1875b5d9
+uuid: c0374ce9-94d4-496a-b067-789385105bcf
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - comment
     - user
 _core:
-  default_config_hash: fsBo_zgUeLyYZdghaw4PkOHA-HqFxu7wmQLilF35XYg
+  default_config_hash: xYsnUBUnDk0S9KmMSeGgSBPZMAB5aEJhMqN9vCW1L-A
 id: comment
 label: Comments
 module: comment
@@ -39,7 +39,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Filter
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'

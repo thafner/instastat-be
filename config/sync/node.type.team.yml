@@ -1,4 +1,4 @@
-uuid: 28ae9b00-4d57-4606-9de9-c05073418990
+uuid: 0cf1f166-d512-483a-8c29-fb0f4f32f1d4
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,9 @@ dependencies:
     - menu_ui
 third_party_settings:
   menu_ui:
-    available_menus: {  }
-    parent: ''
+    available_menus:
+      - main
+    parent: 'main:'
 name: Team
 type: team
 description: ''

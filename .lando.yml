@@ -5,7 +5,6 @@ config:
   via: apache:2.4
   webroot: web/
   database: mysql:8.0
-  drush: '^10'
 services:
   appserver:
     overrides:
